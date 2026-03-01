@@ -9,34 +9,45 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/wf_add_player.wav", "label": "Growling" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/wf_taunt_05.wav", "label": "Men approach" },
+        { "file": "sounds/wf_taunt_03.wav", "label": "Intend to repay that debt" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/wf_vict_01.wav", "label": "I win, you lose" },
+        { "file": "sounds/wf_vict_04.wav", "label": "Great pleasure to announce you're finished" },
+        { "file": "sounds/wf_vict_02.wav", "label": "Weak and unfit to command" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/wf_anger_01.wav", "label": "You will pay dearly" },
+        { "file": "sounds/wf_anger_02.wav", "label": "Damn you, I will have revenge" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/wf_plead_03.wav", "label": "Underestimated you a little" },
+        { "file": "sounds/wf_plead_04.wav", "label": "You fight better than your father" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/wf_plead_02.wav", "label": "I shall return" },
+        { "file": "sounds/wf_anger_03.wav", "label": "You will feel my bite" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/wf_anger_04.wav", "label": "Rid me of your presence" },
+        { "file": "sounds/wf_taunt_08.wav", "label": "No match for me, boy" },
+        { "file": "sounds/wf_kick_player.wav", "label": "Screaming" }
       ]
     }
   }
